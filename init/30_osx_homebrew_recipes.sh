@@ -9,6 +9,7 @@ recipes=(
   Caskroom/cask/osxfuse
   bison
   dialog
+  imagemagick
   jq
   openssl
   sshfs
