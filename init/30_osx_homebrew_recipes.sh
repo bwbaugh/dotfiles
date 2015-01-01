@@ -10,6 +10,7 @@ recipes=(
   dialog
   jq
   openssl
+  tmux
   watch
 )
 
