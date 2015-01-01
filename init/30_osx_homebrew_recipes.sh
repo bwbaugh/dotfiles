@@ -12,6 +12,7 @@ recipes=(
   openssl
   tmux
   watch
+  wget
 )
 
 brew_install_recipes
