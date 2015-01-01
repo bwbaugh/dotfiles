@@ -6,10 +6,12 @@ is_osx || return 1
 
 # Homebrew recipes
 recipes=(
+  Caskroom/cask/osxfuse
   bison
   dialog
   jq
   openssl
+  sshfs
   tmux
   watch
   wget
