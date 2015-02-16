@@ -12,6 +12,7 @@ recipes=(
   imagemagick
   jq
   openssl
+  pv
   sshfs
   tmux
   watch
