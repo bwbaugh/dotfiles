@@ -12,6 +12,7 @@ packages=(
   bash-completion
   ntp
   screen
+  sysv-rc-conf
   tmux
   vim
 )
