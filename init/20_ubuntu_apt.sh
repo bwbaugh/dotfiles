@@ -11,6 +11,7 @@ packages=(
   aptitude
   bash-completion
   ntp
+  pv
   screen
   sysv-rc-conf
   tmux
