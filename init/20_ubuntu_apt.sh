@@ -10,6 +10,7 @@ sudo apt-get -qq dist-upgrade
 packages=(
   aptitude
   bash-completion
+  dialog
   ntp
   pv
   screen
