@@ -13,6 +13,7 @@ recipes=(
   jq
   openssl
   pv
+  ssh-copy-id
   sshfs
   tmux
   watch
