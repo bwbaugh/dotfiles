@@ -11,6 +11,7 @@ packages=(
   aptitude
   bash-completion
   dialog
+  mtr-tiny
   ntp
   pv
   screen
