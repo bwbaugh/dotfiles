@@ -12,6 +12,7 @@ packages=(
   bash-completion
   dialog
   mtr-tiny
+  ncdu
   ntp
   pv
   screen
