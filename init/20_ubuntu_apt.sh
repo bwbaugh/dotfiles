@@ -17,6 +17,7 @@ packages=(
   pv
   screen
   sysv-rc-conf
+  tig
   tmux
   vim
 )
