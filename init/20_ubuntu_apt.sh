@@ -11,6 +11,7 @@ packages=(
   aptitude
   bash-completion
   dialog
+  landscape-common
   mtr-tiny
   ncdu
   ntp
