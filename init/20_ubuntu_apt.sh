@@ -20,6 +20,7 @@ packages=(
   sysv-rc-conf
   tig
   tmux
+  toilet
   vim
 )
 
