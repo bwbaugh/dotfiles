@@ -12,6 +12,7 @@ packages=(
   bash-completion
   dialog
   landscape-common
+  lynx
   mtr-tiny
   ncdu
   ntp
