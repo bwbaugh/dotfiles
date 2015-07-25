@@ -1,0 +1,1 @@
+pathaddstart "$HOME/.cabal/bin/"
