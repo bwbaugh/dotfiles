@@ -3,6 +3,12 @@ set history=1000
 set spell
 
 
+" Visual settings
+
+" Line numbers.
+set number
+
+
 " Indentation
 
 " Copy indent from last line when starting new line.
