@@ -3,6 +3,22 @@ set history=1000
 set spell
 
 
+" Indentation
+
+" Copy indent from last line when starting new line.
+set autoindent
+" The # of spaces for indenting.
+set shiftwidth=4
+" At start of line, <Tab> inserts shiftwidth spaces, <Bs> deletes shiftwidth spaces.
+set smarttab
+" Tab key results in 4 spaces
+set softtabstop=4
+" Tabs indent only 4 spaces
+set tabstop=4
+" Expand tabs to spaces
+set expandtab
+
+
 " PLUGINS
 
 " raichoo/haskell-vim
