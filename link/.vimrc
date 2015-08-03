@@ -1,6 +1,13 @@
 set spell
 
 
+" Prevent duplicate autocmds from being created if `.vimrc` is re-sourced.
+augroup vimrc
+    autocmd!
+    autocmd Filetype gitcommit setlocal spell textwidth=71
+augroup END
+
+
 " Visual settings
 
 " Line numbers.
