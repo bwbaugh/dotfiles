@@ -1,5 +1,7 @@
 set history=1000
 
+set spell
+
 
 " PLUGINS
 
