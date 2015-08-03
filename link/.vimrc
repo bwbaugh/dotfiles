@@ -7,6 +7,8 @@ set spell
 
 " Line numbers.
 set number
+" Highlight current line.
+set cursorline
 
 
 " Indentation
