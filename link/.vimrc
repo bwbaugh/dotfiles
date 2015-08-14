@@ -18,6 +18,12 @@ set cursorline
 set relativenumber
 
 
+" Scrolling
+
+" Keep the cursor centered vertically on the screen
+set scrolloff=999
+
+
 " Indentation
 
 " The # of spaces for indenting.
