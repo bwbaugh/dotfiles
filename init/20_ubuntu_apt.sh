@@ -15,6 +15,7 @@ packages=(
   lynx
   mtr-tiny
   ncdu
+  nethogs
   ntp
   pv
   screen
