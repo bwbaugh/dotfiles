@@ -1,1 +1,1 @@
-pathaddstart "$HOME/.cabal/bin/"
+pathaddstart "$HOME/.cabal/bin"
