@@ -5,6 +5,7 @@ set spell
 augroup vimrc
     autocmd!
     autocmd Filetype gitcommit setlocal spell textwidth=71
+    autocmd BufEnter *.hs compiler ghc
 augroup END
 
 
@@ -36,9 +37,15 @@ set expandtab
 
 " PLUGINS
 
+" lukerandall/haskellmode-vim
+"
+" The preferred HTML browser for viewing Haddock documentation.
+let g:haddock_browser="/opt/google/chrome/chrome"
+
 " https://github.com/junegunn/vim-plug
 " Reload .vimrc and :PlugInstall to install plugins.
 call plug#begin('~/.vim/plugged')
+Plug 'lukerandall/haskellmode-vim'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vividchalk'
 call plug#end()
