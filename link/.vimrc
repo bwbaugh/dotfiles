@@ -42,12 +42,26 @@ set expandtab
 " The preferred HTML browser for viewing Haddock documentation.
 let g:haddock_browser="/opt/google/chrome/chrome"
 
+" scrooloose/syntastic
+"
+map <Leader>s :SyntasticToggleMode<CR>
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 0
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+
 " https://github.com/junegunn/vim-plug
 " Reload .vimrc and :PlugInstall to install plugins.
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc', { 'do': 'make' }
 Plug 'eagletmt/ghcmod-vim'
 Plug 'lukerandall/haskellmode-vim'
+Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vividchalk'
 call plug#end()
