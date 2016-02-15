@@ -12,3 +12,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Ensure tmux works with 256 colors
+TERM=screen-256color
