@@ -12,8 +12,6 @@ augroup END
 
 " Line numbers.
 set number
-" Highlight current line.
-set cursorline
 " Use relative line numbers. Current line is still in status bar.
 set relativenumber
 
