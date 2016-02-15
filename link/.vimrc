@@ -46,6 +46,7 @@ let g:haddock_browser="/opt/google/chrome/chrome"
 " Reload .vimrc and :PlugInstall to install plugins.
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc', { 'do': 'make' }
+Plug 'eagletmt/ghcmod-vim'
 Plug 'lukerandall/haskellmode-vim'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vividchalk'
