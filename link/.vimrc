@@ -74,3 +74,9 @@ filetype plugin indent on
 
 " Make the normal max line lengths obvious.
 set colorcolumn=72,80
+
+
+" Powerline
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
