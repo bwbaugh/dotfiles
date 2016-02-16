@@ -56,6 +56,7 @@ let g:syntastic_check_on_wq = 0
 call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc', { 'do': 'make' }
 Plug 'eagletmt/ghcmod-vim'
+Plug 'kien/ctrlp.vim'
 Plug 'lukerandall/haskellmode-vim'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-sensible'
