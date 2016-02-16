@@ -15,5 +15,8 @@
 /link/.rbenv/versions/
 /link/.rbenv/version
 
+# Opt in to configuration files.
+/link/.config/
+
 # Ignore any file with LOCAL in the name (good for per-machine vars/functions)
 *LOCAL*
