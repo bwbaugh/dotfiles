@@ -7,6 +7,8 @@ sudo apt-get -qq update
 sudo apt-get -qq dist-upgrade
 
 # Install APT packages.
+# vim-nox for Python support on Raspberry Pi. Consider adding an
+#   `is_raspberry` check.
 packages=(
   aptitude
   bash-completion
