@@ -10,6 +10,7 @@ sudo apt-get -qq dist-upgrade
 packages=(
   aptitude
   bash-completion
+  build-essential
   dialog
   landscape-common
   lynx
@@ -18,6 +19,7 @@ packages=(
   nethogs
   ntp
   pv
+  python-dev
   screen
   sysv-rc-conf
   tig
