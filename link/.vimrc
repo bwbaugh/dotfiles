@@ -37,6 +37,12 @@ set expandtab
 
 " PLUGINS
 
+" ctrlpvim/ctrlp.vim
+"
+" Ignore files in `.gitignore` by only searching files tracked in git.
+" https://github.com/kien/ctrlp.vim/issues/273
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
 " lukerandall/haskellmode-vim
 "
 " The preferred HTML browser for viewing Haddock documentation.
