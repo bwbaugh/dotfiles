@@ -2,4 +2,9 @@
 # in all projects.  For more information about stack's configuration, see
 # http://docs.haskellstack.org/en/stable/yaml_configuration.html
 #
-{}
+templates:
+  params:
+    author-email: wesley@bwbaugh.com
+    author-name: Wesley Baugh
+    copyright: (c) 2016 Wesley Baugh
+    github-username: bwbaugh
