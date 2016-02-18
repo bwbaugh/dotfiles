@@ -18,5 +18,11 @@
 # Opt in to configuration files.
 /link/.config/
 
+# Haskell stack.
+/link/.stack/build-plan-cache/
+/link/.stack/build-plan/
+/link/.stack/indices/
+/link/.stack/templates/
+
 # Ignore any file with LOCAL in the name (good for per-machine vars/functions)
 *LOCAL*
