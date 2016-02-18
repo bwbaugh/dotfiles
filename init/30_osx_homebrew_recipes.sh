@@ -11,6 +11,7 @@ recipes=(
   dialog
   imagemagick
   jq
+  ncdu
   openssl
   pv
   ssh-copy-id
