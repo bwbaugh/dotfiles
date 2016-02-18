@@ -21,7 +21,12 @@
 # Haskell stack.
 /link/.stack/build-plan-cache/
 /link/.stack/build-plan/
+/link/.stack/global-project/
 /link/.stack/indices/
+/link/.stack/precompiled/
+/link/.stack/programs/
+/link/.stack/setup-exe-cache/
+/link/.stack/snapshots/
 /link/.stack/templates/
 
 # Other ghc config.
