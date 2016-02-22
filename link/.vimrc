@@ -63,6 +63,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc', { 'do': 'make' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'eagletmt/ghcmod-vim'
+Plug 'ervandew/supertab'
 Plug 'lukerandall/haskellmode-vim'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-sensible'
