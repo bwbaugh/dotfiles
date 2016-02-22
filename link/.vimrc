@@ -48,6 +48,12 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " Use buffer words as default tab completion
 let g:SuperTabDefaultCompletionType = '<c-x><c-o>'
 
+" Customize the completion menu.
+" menuone: Open menu even if there's only one match.
+" longest: Just inserts the longest common text of all matches instead
+"   of selecting the first completion item.
+set completeopt=menuone,menu,longest
+
 " Provide (neco-ghc) omnicompletion
 if has("gui_running")
   imap <c-space> <c-r>=SuperTabAlternateCompletion("\<lt>c-x>\<lt>c-o>")<cr>
