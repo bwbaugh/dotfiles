@@ -48,6 +48,21 @@ let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclu
 " Use buffer words as default tab completion
 let g:SuperTabDefaultCompletionType = '<c-x><c-o>'
 
+" Provide (neco-ghc) omnicompletion
+if has("gui_running")
+  imap <c-space> <c-r>=SuperTabAlternateCompletion("\<lt>c-x>\<lt>c-o>")<cr>
+else " no gui
+  if has("unix")
+    inoremap <Nul> <c-r>=SuperTabAlternateCompletion("\<lt>c-x>\<lt>c-o>")<cr>
+  endif
+endif
+
+let g:haskellmode_completion_ghc = 0
+augroup supertab
+    autocmd!
+    autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
+augroup END
+
 " lukerandall/haskellmode-vim
 "
 " The preferred HTML browser for viewing Haddock documentation.
@@ -68,6 +83,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'Shougo/vimproc', { 'do': 'make' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'eagletmt/ghcmod-vim'
+Plug 'eagletmt/neco-ghc'
 Plug 'ervandew/supertab'
 Plug 'lukerandall/haskellmode-vim'
 Plug 'scrooloose/syntastic'
