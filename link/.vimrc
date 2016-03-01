@@ -113,6 +113,7 @@ Plug 'lukerandall/haskellmode-vim'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-vividchalk'
+Plug 'vim-scripts/AutoComplPop'
 call plug#end()
 
 
