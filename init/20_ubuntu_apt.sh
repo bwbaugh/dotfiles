@@ -14,6 +14,7 @@ packages=(
   bash-completion
   build-essential
   dialog
+  htop
   landscape-common
   lynx
   mtr-tiny
