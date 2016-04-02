@@ -20,11 +20,13 @@ set relativenumber
 " Scrolling
 
 " Keep the cursor centered vertically on the screen
-set scrolloff=999
+set scrolloff=990
 
 " Toggle to allow editing the end of the file with cursor not at
 " bottom of the screen.
-nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
+" Keep this at +10 from scrolloff above to cause the value to be 1000
+" when toggled "off".
+nnoremap <Leader>zz :let &scrolloff=1000-&scrolloff<CR>
 
 
 " Indentation
