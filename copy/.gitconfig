@@ -1,6 +1,5 @@
 [user]
     name = Wesley Baugh
-    email = <<EMAIL>>
 [credential]
     helper = cache
 [core]
