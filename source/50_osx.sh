@@ -8,3 +8,5 @@ export PATH=/Users/bwbaugh/Library/Python/2.7/bin:/opt/local/bin:/opt/local/sbin
 
 # Homebrew.
 pathaddend "/usr/local/sbin"
+
+export EDITOR="vim"
