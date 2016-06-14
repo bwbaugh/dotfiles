@@ -10,5 +10,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Ensure tmux works with 256 colors
-TERM=screen-256color
+case $(tty) in
+/dev/tty[0-9]*)
+  TERM=linux
+  ;;
+*)
+  # Ensure tmux works with 256 colors
+  TERM=screen-256color
+  ;;
+esac
