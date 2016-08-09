@@ -1,3 +1,5 @@
+hash powerline-daemon 2> /dev/null || return 1
+
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
