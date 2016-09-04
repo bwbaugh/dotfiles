@@ -14,6 +14,7 @@ packages=(
   bash-completion
   build-essential
   dialog
+  emacs
   htop
   landscape-common
   lynx

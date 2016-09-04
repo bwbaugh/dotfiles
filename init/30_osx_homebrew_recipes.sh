@@ -9,6 +9,7 @@ recipes=(
   Caskroom/cask/osxfuse
   bison
   dialog
+  emacs
   imagemagick
   jq
   ncdu
