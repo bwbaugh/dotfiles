@@ -10,13 +10,20 @@ recipes=(
   bison
   dialog
   emacs
+  git
+  homebrew/dupes/rsync
+  htop-osx
   imagemagick
+  iperf
   jq
+  mtr
   ncdu
   openssl
+  pre-commit
   pv
   ssh-copy-id
   sshfs
+  tig
   tmux
   watch
   wget
