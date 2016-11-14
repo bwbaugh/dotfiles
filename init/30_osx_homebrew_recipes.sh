@@ -25,6 +25,7 @@ recipes=(
   sshfs
   tig
   tmux
+  truncate
   watch
   wget
 )
