@@ -15,6 +15,8 @@ packages=(
   build-essential
   dialog
   htop
+  iperf
+  iperf3
   landscape-common
   lynx
   mtr-tiny
