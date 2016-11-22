@@ -15,6 +15,7 @@ recipes=(
   htop-osx
   imagemagick
   iperf
+  iperf3
   jq
   mtr
   ncdu
