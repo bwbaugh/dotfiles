@@ -23,6 +23,7 @@ packages=(
   mtr-tiny
   ncdu
   nethogs
+  nfs-common
   ntp
   pv
   python-dev
