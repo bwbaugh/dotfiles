@@ -14,6 +14,7 @@ packages=(
   bash-completion
   build-essential
   dialog
+  fio
   htop
   iperf
   iperf3
