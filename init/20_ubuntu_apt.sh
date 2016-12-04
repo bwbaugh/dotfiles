@@ -13,6 +13,7 @@ packages=(
   aptitude
   bash-completion
   build-essential
+  checkinstall
   dialog
   fio
   htop
