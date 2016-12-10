@@ -11,6 +11,7 @@ sudo apt-get -qq dist-upgrade
 #   `is_raspberry` check.
 packages=(
   aptitude
+  autofs
   bash-completion
   build-essential
   checkinstall
