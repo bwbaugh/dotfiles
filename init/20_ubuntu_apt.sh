@@ -17,6 +17,7 @@ packages=(
   dialog
   fio
   htop
+  iftop
   iperf
   iperf3
   landscape-common
