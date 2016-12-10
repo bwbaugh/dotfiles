@@ -15,6 +15,7 @@ packages=(
   build-essential
   checkinstall
   dialog
+  etckeeper
   fio
   htop
   iftop
