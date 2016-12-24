@@ -16,6 +16,7 @@ packages=(
   build-essential
   checkinstall
   dialog
+  emacs-nox
   etckeeper
   fio
   htop
