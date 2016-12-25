@@ -16,6 +16,7 @@ packages=(
   bash-completion
   build-essential
   checkinstall
+  cifs-utils
   dialog
   emacs-nox
   etckeeper
