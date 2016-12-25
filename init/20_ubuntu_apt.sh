@@ -10,6 +10,7 @@ sudo apt-get -qq dist-upgrade
 # vim-nox for Python support on Raspberry Pi. Consider adding an
 #   `is_raspberry` check.
 packages=(
+  apt-file
   aptitude
   autofs
   bash-completion
