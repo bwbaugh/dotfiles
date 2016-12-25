@@ -1,7 +1,9 @@
 is_ubuntu || return 1
 
-readonly inconsolata="$HOME/.fonts/Inconsolata for Powerline.otf"
+readonly font_dir="$HOME/.fonts"
+readonly inconsolata="${font_dir}/Inconsolata for Powerline.otf"
 if [ ! -f "${inconsolata}" ]; then
+    mkdir -p "${font_dir}"
     curl \
         --location \
         --show-error \
