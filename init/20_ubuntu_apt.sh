@@ -12,6 +12,7 @@ sudo apt-get -qq dist-upgrade
 packages=(
   apt-file
   aptitude
+  arp-scan
   autofs
   bash-completion
   build-essential
