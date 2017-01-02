@@ -19,6 +19,7 @@ packages=(
   checkinstall
   cifs-utils
   dialog
+  dnsutils
   emacs-nox
   etckeeper
   fio
