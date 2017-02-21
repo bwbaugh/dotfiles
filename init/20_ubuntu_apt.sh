@@ -41,6 +41,7 @@ packages=(
   tig
   tmux
   toilet
+  tree
   vim
 )
 
