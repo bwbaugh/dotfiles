@@ -23,6 +23,7 @@ recipes=(
   openssl
   pre-commit
   pv
+  smartmontools
   ssh-copy-id
   sshfs
   tig

@@ -37,6 +37,7 @@ packages=(
   pv
   python-dev
   screen
+  smartmontools
   sysv-rc-conf
   tig
   tmux
