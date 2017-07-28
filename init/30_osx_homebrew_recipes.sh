@@ -23,6 +23,7 @@ recipes=(
   openssl
   pre-commit
   pv
+  rename
   smartmontools
   ssh-copy-id
   sshfs
