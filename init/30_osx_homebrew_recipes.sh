@@ -12,6 +12,7 @@ recipes=(
   dialog
   emacs
   git
+  gron
   homebrew/dupes/rsync
   htop-osx
   imagemagick
