@@ -43,6 +43,7 @@ values."
      (haskell :variables
               haskell-completion-backend 'intero)
      helm
+     latex
      ;; markdown
      ;; org
      ;; (shell :variables
