@@ -6,6 +6,7 @@ is_osx || return 1
 
 # Homebrew recipes
 recipes=(
+  Caskroom/cask/karabiner-elements
   Caskroom/cask/unetbootin
   arduino-cli
   bison
