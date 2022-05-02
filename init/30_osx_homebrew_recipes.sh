@@ -32,6 +32,7 @@ recipes=(
   tig
   tmux
   truncate
+  twitchdev/twitch/twitch-cli
   watch
   wget
 )
