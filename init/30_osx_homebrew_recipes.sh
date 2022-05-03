@@ -25,6 +25,7 @@ recipes=(
   openssl
   pre-commit
   pv
+  rectangle
   rename
   smartmontools
   ssh-copy-id
