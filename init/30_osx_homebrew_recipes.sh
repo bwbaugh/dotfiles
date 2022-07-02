@@ -12,6 +12,7 @@ recipes=(
   bison
   dialog
   emacs
+  f3
   git
   gron
   homebrew/dupes/rsync
