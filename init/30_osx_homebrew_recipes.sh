@@ -34,6 +34,7 @@ recipes=(
   tmux
   truncate
   twitchdev/twitch/twitch-cli
+  vlc
   watch
   wget
 )
