@@ -14,6 +14,7 @@ recipes=(
   emacs
   f3
   git
+  git-lfs
   gron
   homebrew/dupes/rsync
   htop-osx
