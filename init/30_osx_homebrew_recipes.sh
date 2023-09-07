@@ -16,6 +16,7 @@ recipes=(
   git
   git-lfs
   gron
+  haskell-stack
   homebrew/dupes/rsync
   htop-osx
   imagemagick
